@@ -1,0 +1,67 @@
+<html> 
+    <head>
+        <title>html base form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div>
+        <form>
+            <h1>Step 1:Your Details</h1>
+            <fieldset>
+                <label for="text">Name</label>
+                <input type="text" name="text" id="text" placeholder="First and last name">
+            </fieldset>
+            <fieldset>
+                <label for="e-mail">E-mail</label>
+                <input type="e-mail" name="e-mail" id="e-mail" placeholder="example@domain.com">
+            </fieldset>
+            <fieldset>
+                <label for="phone">Phone</label>
+                <input type="phone" name="phone" id="name" placeholder="Eg. +92344-7241705">
+            </fieldset>
+            <h1>Step 2:Delivery Address</h1>
+            <fieldset>
+                 <label for="address">Address</label>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <label for="Post code">Post code</label>
+                <input type="Post code" name="Post code" id="Post code">
+            </fieldset>
+            <fieldset>      
+                <label for="Country">Country</label>
+                <input type="Country" name="Country" id="Country">
+            </fieldset>
+            <h1>Step 3:Card details</h1>
+            <fieldset>
+                <label>Select card</label> <br>
+                <label for="visa">Visa</label>
+                <input type="radio" id="visa" name="card">
+                <label for="amex">Amex</label>
+                <input type="radio" id="amex" name="card">
+                <label for="card">card</label>
+                <input type="radio" id="card" name="card">           
+            </fieldset>
+            <fieldset>
+                <label for="card number">Card number</label>
+                <input type="card number" name="card number" id="card number">
+            </fieldset>
+            <fieldset>
+                <label for="Security code">Security code</label>
+                <input type="Security code" name="Security code" id="Security code">
+            </fieldset>
+            <fieldset>
+                <label for="name on card">Name on card</label>
+                <input type="name on card" name="name on card" id="name on card" placeholder="Exact name as on the card">
+            </fieldset>
+            <label for="select">Select</label>
+            <select name="select" id="select" name="select">
+                <option>pakistan</option>
+                <option>china</option>
+                <option>india</option>
+            </select>    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </body>
+</html>

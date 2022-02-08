@@ -1,0 +1,50 @@
+body{
+    background-color: antiquewhite;
+}
+.divOne{
+    width:1500px;
+    height:auto;
+    background-color: azure;
+    margin-left:10%;
+    margin-top:5%;
+    padding:2%;
+}
+.divTwo{
+    width:1500px;
+    height:auto;
+    background-color:bisque;
+    margin-left:10%;
+    margin-top:5%;
+    padding:2%;
+}
+
+#divOne{
+    width:1500px;
+    height:auto;
+    background-color: azure;
+    margin-left:10%;
+    margin-top:5%;
+    padding:2%;
+}
+#divTwo{
+    width:1500px;
+    height:auto;
+    background-color:bisque;
+    margin-left:10%;
+    margin-top:5%;
+    padding:2%;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    padding-top: 50px;
+}
+table{
+    border: 2px solid red;
+    width: 100%;
+}
+td{
+    width:50%;
+}

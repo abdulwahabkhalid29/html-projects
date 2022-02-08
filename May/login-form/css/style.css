@@ -1,0 +1,25 @@
+fieldset{
+  background-color: blue;
+}
+label{
+  padding-right:50px;
+}
+body{
+  background-color: seagreen;
+}
+button {
+background-color: lightskyblue;
+color: white;
+padding: 14px 40px;
+margin: 8px 0;
+border: none;
+width: 100%;
+}
+div{
+padding:30px;
+background-color: lightpink;
+margin-left:700px ;
+margin-top: 25px;
+height: auto;
+width: 500px;
+}

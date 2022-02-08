@@ -1,0 +1,12 @@
+body{
+    background-color:navajowhite;
+}
+div{
+    background-color: palegreen;
+    margin: 550px;
+    padding: 25px;
+}
+input{
+    width: 750px;
+    height: 25px;
+}
